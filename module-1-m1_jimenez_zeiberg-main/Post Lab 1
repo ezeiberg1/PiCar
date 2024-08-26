@@ -1,0 +1,15 @@
+1. Be able to explain the following linux commands:
+a. cd - change directory
+
+b. ls (and the flags -a, -l) - list the contents of the directory. -a will include the hidden files. -l list the files with permissions and their creation date.
+
+c. cp - copy the contents of a file
+
+d. rm - remove a file or directory
+
+e. pwd - print working directory (directory you are currently in)
+
+f. cat - displays the contents that are in the indicated file
+
+2. Connect to your Pi remotely from a location not in the lab.
+Connected at home
