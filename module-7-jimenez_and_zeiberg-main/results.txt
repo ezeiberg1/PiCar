@@ -1,0 +1,42 @@
+low Speed (cycle 20): 
+   num transitions = 50
+   num rotations = 50transitions/4  = 12.5 rotations 
+   rps = 12.5 rotations/4 sec = 3.124 rotations per second
+   rpm = 3.124 rps*60 sec = 187.5 rotations per min
+   calc_rpm calculated the speed to be 192 rpm
+ 
+ medium speed (cycle 50):
+   num transitions = 96 
+   num rotations = 96 transitions /4 = 24 rotations
+   rps = 24 rotations / 4 sec = 6 rotations per second
+   rpm = 6 rps *60 secc = 360 rotations per min
+   calc_rpm calculated the speed to be 361 rpm
+    
+high speed (cycle 90):
+   num transitions = 117
+   num rotations = 117 transitions/4 = 29.25 rotations
+   rps = 29.25 rotations / 4 sec = 7.3125 rotations per second
+   rpm = 7.3125 rps * 60 sec = 438.75 rotations per min
+   calc_rpm calculated the speed to be 455 rpm
+
+There are some difference between our manually calculated speed and the program speed because we are estimating the time and there may be some error with counting the number of transitions
+ 
+Using fft to determine speed
+low speed (cycle 20):
+   first spike at about 6 hz
+   6hz/2 cycles = 3 rps
+   3 rps * 60 sec = 180 rpm
+
+medium speed (cycle 50):
+   first spike at about 12 hz
+   12 hz/2 cycles = 6 rps
+   6 rps * 60 sec = 360 rpm
+
+high speed (cycle 90):
+   first spike at about 14 hz
+   14hz / 2 cycles = 7 rps
+   7 rps * 60 sec = 420 rpm
+   
+Getting the speed from the fft graph is an approximation because we are estimating where the first spike is 
+
+Note: We sampled at 100hz when collecting our data

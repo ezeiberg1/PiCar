@@ -1,0 +1,6 @@
+low duty cyle: 4
+high duty cycle: 11
+low angle: 0
+high angle:120 degrees
+PWN to angle ratio: 7/120 = PWM/angle
+We chose .3 as the value for delta. When we increased the value, the servo overshot where it was supposed to go. Decreasing the rate of taking pictures means we could increase the value for delta since the pi had more time to move to the correct position.

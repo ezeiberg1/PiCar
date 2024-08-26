@@ -1,0 +1,11 @@
+If this resistor is put in series in a voltage divider with a 1K resistor, determine the voltage and bit value 
+if read with the AD converter.
+
+Bit value: 785
+Voltage: 2.53 V
+3.3k(ohms)*3.3V/4300(Ohms) = 2.3V
+
+
+If you flip the resistors, how do the measurements change?
+Bit value: 238
+Voltage: .76V
