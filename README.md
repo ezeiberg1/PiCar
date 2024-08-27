@@ -1,4 +1,4 @@
-Controlling a Raspberry PiCar
+# Controlling a Raspberry PiCar - 2022
 
 This project uses various techniques involving different sensors installed on the PiCar to accomplish 3 main objectives. The first objective is control. This objective focuses on design- ing a control system for the PiCar motor. Another focus of this objective was to determine the response time, overshoot, and steady state error for the system trying to travel at 3 RPS. The AD converter plays a major role in determining the speed of the PiCar in “real time”. It observes a rotating wheel that’s composed of black and white sections to determine the rotations per seconds of the given system. The AD converter converts the analog system to a binary format that could be understood by the Raspberry i. A program was created to determine the rotations per seconds based on the transitions counted in the time interval.
 
